@@ -1,0 +1,18 @@
+{
+  "_comment": "Sanitized example output of SalesforceClient.build_lead_payload(). No real patient data.",
+  "FirstName": "Jordan",
+  "LastName": "Ellis",
+  "Company": "AsteriaCare Hospitals",
+  "Phone": "+1-555-0100",
+  "Email": "jordan.ellis@example.com",
+  "City": "Riverside Campus",
+  "LeadSource": "AsteriaCare AI",
+  "CustomFields__c": {
+    "Department__c": "Cardiology",
+    "Doctor__c": "Dr. Aisha Kapoor",
+    "Hospital__c": "Riverside Campus",
+    "Reason__c": "Follow-up consultation for chest discomfort",
+    "AppointmentDateTime__c": "2026-09-01 10:00"
+  },
+  "allow_duplicates": false
+}
