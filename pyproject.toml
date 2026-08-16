@@ -1,0 +1,19 @@
+[project]
+name = "asteriacare"
+version = "0.1.0"
+description = "AsteriaCare AI Patient Assistant — conversational agent + Salesforce integration"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.40.0",
+    "requests>=2.31.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
